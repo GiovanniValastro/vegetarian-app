@@ -1,0 +1,36 @@
+.load {
+  background: linear-gradient(to right, #005a00cc 0%, #002200cc 100%);
+  margin: 20px auto 20px auto;
+  border: 3px solid #00B4CC;
+  border-radius: 10px;
+  height: 100px;
+}
+
+.loadTrue {
+  width: 100px;
+  padding: 10px;
+}
+
+.loadFalse {
+  width: 300px;
+  animation-name: wipe-enter;
+  animation-duration: 1s;
+  padding: 25px;
+}
+
+@keyframes wipe-enter {
+	0% {
+		transform: scale(0, 1);
+    color: transparent;
+	}
+	50% {
+    color: transparent;
+	}
+  100% {
+    transform: scale(1, 1);
+	}
+}
+
+
+
+

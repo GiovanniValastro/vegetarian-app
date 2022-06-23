@@ -1,0 +1,50 @@
+nav {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+
+  form {
+    position: relative;
+
+    & img{
+      position: absolute;
+      left: 33px;
+      top: 10px;
+    }
+
+    & input {
+      margin-left: 25px;
+      height: 45px;
+      width: 300px;
+      border-radius: 5px;
+      outline: #00D6CC;
+      padding: 0 5px 0 35px;
+      color: black;
+    }
+  }
+
+  .link img {
+      width: 35px;
+      margin: 5px;
+      border: 3px solid black;
+    }
+    
+    .github {
+      border-radius: 50%;
+    }
+}  
+
+@media only screen and (max-width: 550px ) {
+    
+  .searchTerm {
+    width: 200px;
+  }
+
+  .link img {
+    display: none;
+  }
+}
+

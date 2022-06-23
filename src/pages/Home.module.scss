@@ -1,0 +1,14 @@
+.container {
+  background-color: #001200cc;
+  width: 90%;
+  min-height: 400px;
+  margin: 50px auto 20px auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.routerLink {
+  text-decoration: none;
+}
