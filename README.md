@@ -13,7 +13,7 @@ This is the project I made for the start2impact React path.
 I built this application using the spoonculator [API](https://spoonacular.com/food-api/docs). From here you can search for all the vegetarian recipes you want from a vast catalog where you can also find their nutritional values. I made the project using with [React](https://it.reactjs.org/) framework by configuring the project with create-react-app. For state management I configured redux toolkit with with createSlice and createAsyncThunk, while for routing I installed react-rourter-dom (v6). In addition to these dependencies I have also used others that you can find [below](#dependencies) or in the [package.json](https://github.com/GiovanniValastro/vegetarian-app/blob/master/package.json) file.
 
 ![](src/imgs/imgReadme.png)
-[click to watch](https://giovannivalastro.github.io/vegetarian-app/)
+[click to watch](https://gv-vegetarian-app.netlify.app/)
 
 ## Installation
 
